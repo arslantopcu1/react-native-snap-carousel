@@ -23,7 +23,7 @@ const AnimatedScrollView = Animated.createAnimatedComponent(ScrollView);
 // See https://github.com/facebook/react-native/issues/11960
 // NOTE: the following variable is not declared in the constructor
 // otherwise it is undefined at init, which messes with custom indexes
-const IS_RTL = I18nManager.isRTL;
+const IS_RTL = false; //I18nManager.isRTL;
 
 export default class Carousel extends Component {
 
