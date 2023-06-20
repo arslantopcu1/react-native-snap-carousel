@@ -5,7 +5,7 @@ import PaginationDot from './PaginationDot';
 import styles from './Pagination.style';
 
 const IS_IOS = Platform.OS === 'ios';
-const IS_RTL = I18nManager.isRTL;
+const IS_RTL = false //I18nManager.isRTL;
 
 export default class Pagination extends PureComponent {
 
